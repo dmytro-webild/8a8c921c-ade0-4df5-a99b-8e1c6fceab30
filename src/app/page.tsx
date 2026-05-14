@@ -105,10 +105,10 @@ export default function LandingPage() {
         { 
           id: "whatsapp-course", 
           badge: "Best Value", 
-          price: "$10", 
-          subtitle: "Full Access WhatsApp Training", 
-          buttons: [{ text: "Join WhatsApp Group", href: "https://chat.whatsapp.com/your-group-link-here" }], 
-          features: ["All Core Modules", "WhatsApp Group Support", "Certified by Completion", "Lifetime Access"] 
+          price: "Free", 
+          subtitle: "Host your own instance for free", 
+          buttons: [{ text: "Get Started", href: "https://support.kobotoolbox.org/install_anywhere.html" }], 
+          features: ["Full Data Control", "Unlimited Surveys", "Self-Hosted Deployment", "Community Support"] 
         }
       ]}
     />
