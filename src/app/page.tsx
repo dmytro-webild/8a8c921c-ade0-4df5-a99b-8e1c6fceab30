@@ -99,13 +99,7 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
-      title="Choose Your Plan"
-      description="Select the perfect learning path for your professional data journey."
-      plans={[
-        { title: "Starter", price: "$49", features: ["Basic Modules", "Email Support"], buttonText: "Get Started" },
-        { title: "Professional", price: "$99", features: ["Advanced Modules", "Priority Support", "Certificate"], buttonText: "Go Pro" },
-        { title: "Enterprise", price: "$199", features: ["Full Suite", "Dedicated Mentor", "Bulk Licenses"], buttonText: "Contact Us" }
-      ]}
+      plans={[]}
     />
   </div>
 
