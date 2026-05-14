@@ -102,9 +102,9 @@ export default function LandingPage() {
       title="Choose Your Plan"
       description="Select the perfect learning path for your professional data journey."
       plans={[
-        { name: "Starter", price: "$49", features: ["Basic Modules", "Email Support"], buttonText: "Get Started" },
-        { name: "Professional", price: "$99", features: ["Advanced Modules", "Priority Support", "Certificate"], buttonText: "Go Pro" },
-        { name: "Enterprise", price: "$199", features: ["Full Suite", "Dedicated Mentor", "Bulk Licenses"], buttonText: "Contact Us" }
+        { plan: "Starter", price: "$49", features: ["Basic Modules", "Email Support"], buttonText: "Get Started" },
+        { plan: "Professional", price: "$99", features: ["Advanced Modules", "Priority Support", "Certificate"], buttonText: "Go Pro" },
+        { plan: "Enterprise", price: "$199", features: ["Full Suite", "Dedicated Mentor", "Bulk Licenses"], buttonText: "Contact Us" }
       ]}
     />
   </div>
