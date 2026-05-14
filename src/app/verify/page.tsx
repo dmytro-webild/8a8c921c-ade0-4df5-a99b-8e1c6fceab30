@@ -26,13 +26,9 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Verify Certificate",
-          id: "/verify",
-        },
+          name: "Verify Certificate",          id: "/verify"},
       ]}
       brandName="KoboMaster"
     />
@@ -42,8 +38,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       tag="Verification Portal"
       title="Verify Certificate"
       description="Enter your unique certificate code below to verify its authenticity and display holder information."
@@ -56,8 +51,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Get Help"
       title="Still Need Assistance?"
       description="If you are having trouble verifying your certificate, please reach out to our support team directly."
@@ -73,25 +67,17 @@ export default function LandingPage() {
       logoText="KoboMaster"
       columns={[
         {
-          title: "Platform",
-          items: [
+          title: "Platform",          items: [
             {
-              label: "Course",
-              href: "/",
-            },
+              label: "Course",              href: "/"},
             {
-              label: "Verification",
-              href: "/verify",
-            },
+              label: "Verification",              href: "/verify"},
           ],
         },
         {
-          title: "Support",
-          items: [
+          title: "Support",          items: [
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
       ]}
