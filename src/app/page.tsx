@@ -39,9 +39,9 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroLogo
       logoText="Kobotoolbox Mastery"
-      description="Unlock the power of digital data collection. Join our comprehensive training course and become a professional field data specialist."
+      description="Unlock the power of digital data collection. Join our comprehensive training course conducted via WhatsApp groups and become a professional field data specialist."
       buttons={[
-        { text: "Start Learning", href: "#features" },
+        { text: "Start Learning", href: "#pricing" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/desktop-pc-wooden-desk-showcases-infographics-client-reach-data_482257-126876.jpg"
     />
@@ -52,10 +52,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       title="What is Kobotoolbox?"
-      description="Kobotoolbox is the world's most popular open-source data collection platform. Our training course guides you from basic setup to advanced form design and automated reporting."
+      description="Kobotoolbox is the world's most popular open-source data collection platform. Our training course guides you through practical modules delivered directly to your WhatsApp group."
       bulletPoints={[
-        { title: "Intuitive Form Design", description: "Create complex survey forms without coding." },
-        { title: "Advanced Data Analysis", description: "Export and interpret data using our advanced analytical tools." },
+        { title: "WhatsApp Delivery", description: "Receive lessons and support through dedicated interactive groups." },
+        { title: "Expert Guidance", description: "Direct access to instructors for personalized troubleshooting." },
         { title: "Offline Capability", description: "Collect data in remote locations with ease." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/business-partners-working-together-project_9975-22883.jpg"
@@ -99,12 +99,17 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
-      title="Pricing Plans"
-      description="Flexible training packages for individuals and teams."
+      title="Training Fee"
+      description="A single, comprehensive course to master Kobotoolbox."
       plans={[
-        { id: "basic", badge: "Essential", price: "$99", subtitle: "For individuals", buttons: [{ text: "Select", href: "#" }], features: ["Core Modules", "Email Support"] },
-        { id: "pro", badge: "Pro", price: "$199", subtitle: "For professionals", buttons: [{ text: "Select", href: "#" }], features: ["Advanced Modules", "Priority Support", "Certificate"] },
-        { id: "team", badge: "Team", price: "$499", subtitle: "For organizations", buttons: [{ text: "Select", href: "#" }], features: ["Custom Training", "Dedicated Mentor", "Bulk Licenses"] }
+        { 
+          id: "whatsapp-course", 
+          badge: "Best Value", 
+          price: "$10", 
+          subtitle: "Full Access WhatsApp Training", 
+          buttons: [{ text: "Join WhatsApp Group", href: "https://chat.whatsapp.com/your-group-link-here" }], 
+          features: ["All Core Modules", "WhatsApp Group Support", "Certified by Completion", "Lifetime Access"] 
+        }
       ]}
     />
   </div>
