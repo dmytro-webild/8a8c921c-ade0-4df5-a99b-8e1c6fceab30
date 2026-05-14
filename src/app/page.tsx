@@ -83,7 +83,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         { id: "1", name: "Sarah Ahmed", imageSrc: "http://img.b2bpic.net/free-photo/confident-handsome-businessman-suit-glasses-looking-serious_176420-31755.jpg" },
-        { id: "2", name: "Omar Khaleed", imageSrc: "http://img.b2bpic.net/free-photo/factory-inspector-suit-monitoring-solar-panel-production-output_482257-125982.jpg" },
+        { id: "2", name: "Omar Khaleed", imageSrc: "http://img.b2bpic.net/factory-inspector-suit-monitoring-solar-panel-production-output_482257-125982.jpg" },
         { id: "3", name: "Layla Hassan", imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-man-scientist_23-2148820194.jpg" },
         { id: "4", name: "Youssef Ibrahim", imageSrc: "http://img.b2bpic.net/free-photo/pov-businessman-attending-videocall-meeting-office-using-online-videoconference-talk-consultant-about-financial-strategy-company-employee-chatting-remote-teleconference-close-up_482257-40929.jpg" },
         { id: "5", name: "Nour Ali", imageSrc: "http://img.b2bpic.net/free-photo/woman-hat-with-book-garden_1157-37040.jpg" },
@@ -99,7 +99,13 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
-      plans={[]}
+      title="Pricing Plans"
+      description="Flexible training packages for individuals and teams."
+      plans={[
+        { id: "basic", badge: "Essential", price: "$99", subtitle: "For individuals", buttons: [{ text: "Select", href: "#" }], features: ["Core Modules", "Email Support"] },
+        { id: "pro", badge: "Pro", price: "$199", subtitle: "For professionals", buttons: [{ text: "Select", href: "#" }], features: ["Advanced Modules", "Priority Support", "Certificate"] },
+        { id: "team", badge: "Team", price: "$499", subtitle: "For organizations", buttons: [{ text: "Select", href: "#" }], features: ["Custom Training", "Dedicated Mentor", "Bulk Licenses"] }
+      ]}
     />
   </div>
 
